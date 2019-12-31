@@ -1,0 +1,299 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+header{
+  height: 85px;
+  z-index: 100;
+  background-color: black;
+  overflow: hidden;
+}
+
+#logo img{
+  width: 100px;
+  height: 84px;
+}
+
+#navBar li a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+#feedbackform{
+  margin-top: 50px;
+}
+
+/* View Booking By Admin*/
+#vbbyadmin td, #vbbyadmin th{
+  width: 25% !important;
+}
+
+.modaltext{
+  margin: auto;
+}
+
+.form-control{
+  border: 1px solid black !important;
+}
+
+.mytable{
+  margin: 50px auto 0px auto;
+}
+
+.mytable td, .mytable th{
+  border: 1px solid black;
+  text-align: center;
+  height: 100px;
+  width: 33%;
+} 
+
+.btn{
+  background-color: black;
+  color: white;
+}
+
+.btn:hover{
+  color: black;
+  background-color: red;
+}
+
+.heading{
+  margin: 150px auto 0px auto;
+  width: 70%;
+  text-align: center;
+  color: black;
+}
+
+.studentdetail{
+  margin: 150px auto 0px auto;
+  color: black;
+  text-align: center;
+  width: 100%;
+}
+
+.studentdetail h1{
+  text-align: center;
+}
+
+.stddetailtable{
+  margin: 50px 5px 0px 5px;
+}
+
+.stddetailtable td, .stddetailtable th{
+  border: 1px solid black;
+  text-align: center;
+  height: 100px;
+  width: 11%;
+} 
+
+.bg{
+  width: 100%;
+  height: 100vh;
+  background-image: url('./components/images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.login{
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+}
+
+#loginheading{
+  display: inline-block;
+}
+
+.submitButton{
+  background-color: aliceblue;
+  color: darkslategrey;
+}
+
+.submitButton:hover{
+  background-color: black;
+  color: aliceblue;
+}
+
+.hide{
+  display: none;
+}
+
+#bookingtablebystd td, #bookingtablebystd th{
+  width: 17%;
+} 
+
+#feedbackform{
+  margin-top: 50px;
+}
+
+/* Extra large devices (large laptops and desktops, 1201px and up) */
+@media only screen and (min-width: 1201px) {
+#logo{
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+#list ul{
+float: right;
+}
+
+#list ul li{
+  display: inline-block;
+  margin: 5px 70px 0 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+}
+
+/* Large devices (laptops/desktops, from 993px to 1200px) */
+@media only screen and (max-width: 1200px) {
+#logo{
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+#list ul{
+float: right;
+}
+
+#list ul li{
+  display: inline-block;
+  margin: 10px 60px 0 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+}
+
+/* Medium devices (landscape tablets, from 768px to 992px) */
+@media only screen and (max-width: 992px) {
+#logo{
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+#list ul{
+  float: right;
+}
+
+#list ul li{
+  display: inline-block;
+  margin: 10px 35px 0 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+}
+
+/* Small devices (portrait tablets and large phones, from 768px to 576px) */
+@media only screen and (max-width: 768px) {
+.heading{
+  width: 80%;
+}
+
+#logo{
+  float: left;
+  width: auto;
+  text-align: center;
+}
+
+#list ul{
+float: right;
+width: 100%;
+padding: 0px;
+text-align: center;
+}
+
+#list ul li{
+  display: inline-block;
+  margin: 10px 3% 0 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+#logo img{
+  height: 84px;
+  width: 70px;
+}
+}
+
+/* Extra small devices (phones, from 575px to ...) */
+@media only screen and (max-width: 575px) {
+header{
+  height: auto;
+}
+
+#logo{
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+#list ul{
+float: left;
+width: auto;
+}
+
+#list ul li{
+  display: block;
+  margin: 0px;
+  font-size: 20px;
+  text-align: left;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+#myicon1{
+  height: 5px;
+  background-color: white;
+  margin-top: 20px;
+}  
+  
+#myicon2{
+  height: 5px;
+  background-color: white;
+}
+        
+#myicon3{
+  height: 5px;
+  background-color: white;
+  margin-top: -10px;
+}
+
+.navbar-toggler:hover{
+  background-color: lightslategray;
+}
+}
